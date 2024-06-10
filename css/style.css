@@ -83,11 +83,11 @@ a {
 	color: #333;
 }
 
-.logo a:hover {
+a:hover {
 	color: #986ce4;
 }
 
-.logo a:visited {
+a:visited {
 	color: #333;
 }
 
@@ -119,7 +119,7 @@ main {
 #about {
 	display: grid;
 	align-items: center;
-	padding-top: 5%;
+	padding-top: 1%;
 }
 
 #imgTitle {
@@ -246,7 +246,7 @@ footer {
 	}
 
 	#about {
-		width: 60%;
+		width: 70%;
 		justify-self: center;
 		align-content: center;
 	}
@@ -256,8 +256,8 @@ footer {
 	}
 
 	.aboutText {
-		font-size: 2rem;
-		padding-top: 1rem;
+		font-size: 1.5rem;
+		padding-top: 0.3rem;
 	}
 
 	.aboutImg {
