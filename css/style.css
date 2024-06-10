@@ -1,3 +1,7 @@
+html {
+	scroll-padding-top: 10vh;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -29,20 +33,28 @@ header {
 	box-sizing: border-box;
 }
 
+mark.orange {
+	color: orange;
+	background: none;
+}
+
+mark.red {
+	color: rgb(160, 25, 25);
+	background: none;
+}
+
 .logo {
 	flex: 1;
 	align-self: center;
 	font-size: 0.74rem;
-	color: #333;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
-	font-weight: 700;
 	padding-left: 5%;
 	font-family: "Caveat", cursive;
 	font-optical-sizing: auto;
-	font-weight: 700;
+	font-weight: 600;
 	font-style: normal;
+	color: #333;
 }
 
 nav {
@@ -67,12 +79,15 @@ li {
 
 a {
 	text-decoration: none;
-	color: #333;
 	cursor: pointer;
 }
 
-a:hover {
+.logo a:hover {
 	color: #986ce4;
+}
+
+.logo a:visited {
+	color: #333;
 }
 
 li a {
@@ -94,6 +109,39 @@ main {
 	padding: 10px;
 }
 
+.content-wrapper {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+#about {
+	display: grid;
+	align-items: center;
+	padding-top: 5%;
+}
+
+#imgTitle {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 1.2rem;
+}
+
+.aboutImg {
+	width: 30%;
+	border-radius: 100px;
+}
+
+.aboutTitle {
+	text-align: justify;
+}
+
+.aboutText {
+	text-align: justify;
+	margin: 1rem;
+}
+
 footer {
 	background-color: black;
 	color: whitesmoke;
@@ -113,11 +161,24 @@ footer {
 	nav {
 		align-self: center;
 		font-size: 1.2rem;
-		color: #333;
 		letter-spacing: 1px;
 		text-transform: uppercase;
 		font-weight: 700;
 		padding-right: 10%;
+	}
+
+	#imgTitle {
+		font-size: 2rem;
+	}
+
+	.aboutText {
+		font-size: 1.5rem;
+		padding-top: 1.2rem;
+	}
+
+	.aboutImg {
+		width: 30%;
+		border-radius: 200px;
 	}
 
 	li {
@@ -135,13 +196,31 @@ footer {
 	nav {
 		align-self: center;
 		font-size: 1.6rem;
-		color: #333;
 		letter-spacing: 1px;
 		text-transform: uppercase;
 		font-weight: 700;
 		padding-right: 10%;
 	}
 
+	#about {
+		width: 75%;
+		justify-self: center;
+		align-content: center;
+	}
+
+	#imgTitle {
+		font-size: 2rem;
+	}
+
+	.aboutText {
+		font-size: 1.5rem;
+		padding-top: 1rem;
+	}
+
+	.aboutImg {
+		width: 20%;
+		border-radius: 300px;
+	}
 	li {
 		padding: 0 20px 0 20px;
 	}
@@ -157,11 +236,30 @@ footer {
 	nav {
 		align-self: center;
 		font-size: 1.6rem;
-		color: #333;
 		letter-spacing: 1px;
 		text-transform: uppercase;
 		font-weight: 700;
 		padding-right: 10%;
+	}
+
+	#about {
+		width: 60%;
+		justify-self: center;
+		align-content: center;
+	}
+
+	#imgTitle {
+		font-size: 3rem;
+	}
+
+	.aboutText {
+		font-size: 2rem;
+		padding-top: 1rem;
+	}
+
+	.aboutImg {
+		width: 25%;
+		border-radius: 300px;
 	}
 
 	li {
