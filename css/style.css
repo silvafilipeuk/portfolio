@@ -46,20 +46,20 @@ mark.red {
 .logo {
 	flex: 1;
 	align-self: center;
-	font-size: 0.74rem;
+	font-size: 0.8rem;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	padding-left: 5%;
 	font-family: "Caveat", cursive;
 	font-optical-sizing: auto;
-	font-weight: 600;
+	font-weight: 700;
 	font-style: normal;
 	color: #333;
 }
 
 nav {
 	align-self: center;
-	font-size: 0.65rem;
+	font-size: 0.85rem;
 	color: #333;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -131,6 +131,7 @@ main {
 .aboutImg {
 	width: 30%;
 	border-radius: 100px;
+	border: 2px solid #dbd2d2;
 }
 
 .aboutTitle {
@@ -179,6 +180,7 @@ footer {
 	.aboutImg {
 		width: 30%;
 		border-radius: 200px;
+		border: 5px solid #dbd2d2;
 	}
 
 	li {
@@ -260,6 +262,7 @@ footer {
 	.aboutImg {
 		width: 25%;
 		border-radius: 300px;
+		border: 6px solid #dbd2d2;
 	}
 
 	li {
