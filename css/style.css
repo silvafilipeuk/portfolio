@@ -80,6 +80,7 @@ li {
 a {
 	text-decoration: none;
 	cursor: pointer;
+	color: #333;
 }
 
 .logo a:hover {
