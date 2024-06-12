@@ -147,9 +147,9 @@ main {
   width: 80vw;
   height: 70vh;
   border-radius: 0.15rem;
-  color: white;
+  color: #333;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background-image: linear-gradient(rgb(250, 180, 88), rgb(230, 138, 0));
+  background-color: white;
 }
 
 .skill-box {
@@ -174,7 +174,7 @@ main {
   font-size: 1.2rem;
 }
 .section-title {
-  color: orange;
+  color: rgb(200, 25, 25);
   font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
