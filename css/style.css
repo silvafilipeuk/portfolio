@@ -163,7 +163,7 @@ main {
 }
 
 .skill-title {
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   justify-self: center;
 }
 
@@ -320,6 +320,24 @@ footer {
   }
 }
 
+/* Medium devices (Tablets, 820px and up) */
+@media only screen and (min-width: 820px) {
+  .skill-box {
+    display: grid;
+    width: 150px;
+  }
+
+  .skills-img {
+    width: 50%;
+    justify-self: center;
+  }
+
+  .skill-title {
+    font-size: 1.2rem;
+    justify-self: center;
+  }
+}
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .logo {
@@ -367,7 +385,25 @@ footer {
   }
 
   .skills-img {
-    width: 70%;
+    width: 50%;
+    justify-self: center;
+  }
+
+  .skill-title {
+    font-size: 1rem;
+    justify-self: center;
+  }
+}
+
+/* Extra large devices (large desktops, 1920px and up) */
+@media only screen and (min-width: 1920px) {
+  .skill-box {
+    display: grid;
+    width: 200px;
+  }
+
+  .skills-img {
+    width: 50%;
     justify-self: center;
   }
 
