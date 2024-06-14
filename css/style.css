@@ -24,22 +24,30 @@ body {
   position: fixed;
   width: 40vw;
   height: 3vh;
-  top: 98%;
+  top: 98.5vh;
   left: 28%;
   transform: translateY(-50%);
   background: #333;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 2px 2px 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 .social-bar-img {
   padding-right: 0.25rem;
   width: 30%;
+  padding: 1rem;
 }
 
 .social-bar-link {
   display: grid;
   justify-items: center;
   align-self: center;
+}
+
+.social-bar-link:hover {
+  background-color: orange;
 }
 
 header {
@@ -343,6 +351,7 @@ footer {
 
   .socials-bar {
     height: 4vh;
+    top: 98vh;
   }
 }
 
@@ -441,6 +450,7 @@ footer {
     height: 20vh;
     top: 60%;
     left: 0;
+    border-radius: 0 5px 5px 0;
   }
 
   .social-bar-img {
