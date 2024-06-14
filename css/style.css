@@ -447,7 +447,7 @@ footer {
   .socials-bar {
     display: grid;
     width: 5vw;
-    height: 20vh;
+    height: 30vh;
     top: 60%;
     left: 0;
     border-radius: 0 5px 5px 0;
@@ -517,7 +517,7 @@ footer {
   .socials-bar {
     display: grid;
     width: 3vw;
-    height: 25vh;
+    height: 30vh;
     top: 55%;
     left: 0;
     border-radius: 0 5px 5px 0;
@@ -552,7 +552,7 @@ footer {
   .socials-bar {
     display: grid;
     width: 2.5vw;
-    height: 25vh;
+    height: 30vh;
     top: 55%;
     left: 0;
     border-radius: 0 5px 5px 0;
