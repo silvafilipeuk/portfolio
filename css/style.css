@@ -102,6 +102,10 @@ body {
   justify-content: center;
 }
 
+.mobile {
+  width: 90vw;
+}
+
 .next-project {
   display: none;
   margin: 1rem;
@@ -444,6 +448,10 @@ footer {
     width: 60vw;
   }
 
+  .mobile {
+    width: 90vw;
+  }
+
   .project-title {
     color: rgb(200, 25, 25);
     font-size: 1.5rem;
@@ -591,6 +599,10 @@ footer {
     height: auto;
   }
 
+  .mobile {
+    width: 90vw;
+  }
+
   .project-title {
     font-size: 1.5rem;
   }
@@ -733,6 +745,10 @@ footer {
     width: 75vw;
     justify-self: center;
     font-size: 1rem;
+  }
+
+  .mobile {
+    width: 40vw;
   }
 
   .project-links {
