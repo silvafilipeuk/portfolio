@@ -104,6 +104,7 @@ body {
 
 .mobile {
   width: 90vw;
+  justify-self: center;
 }
 
 .next-project {
@@ -450,6 +451,7 @@ footer {
 
   .mobile {
     width: 90vw;
+    justify-self: center;
   }
 
   .project-title {
@@ -601,6 +603,7 @@ footer {
 
   .mobile {
     width: 90vw;
+    justify-self: center;
   }
 
   .project-title {
@@ -749,6 +752,7 @@ footer {
 
   .mobile {
     width: 40vw;
+    justify-self: center;
   }
 
   .project-links {
