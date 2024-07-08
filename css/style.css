@@ -53,7 +53,7 @@ body {
 .techstack-list {
   display: grid;
   padding: 0.65rem;
-  justify-items: center;
+  justify-items: left;
 }
 .techstack-list li {
   padding: 0.15rem;
